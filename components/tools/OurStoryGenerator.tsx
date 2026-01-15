@@ -4,7 +4,7 @@ import { useState } from "react";
 import { useRouter } from "next/navigation";
 import { Button } from "@/components/ui/Button";
 import { Textarea } from "@/components/ui/Textarea";
-import { generateOurStory } from "@/lib/gemini";
+import { generateOurStory, generateStoryImage } from "@/lib/gemini";
 import { saveStory, Story } from "@/app/actions";
 import { Loader2, BookHeart, Sparkles } from "lucide-react";
 
@@ -27,15 +27,25 @@ export function OurStoryGenerator({ onBack }: { onBack: () => void }) {
             // 1. Generate Text
             const storyData = await generateOurStory(formData);
 
-            // 2. Generate Images (Mock/Placeholder for now as we integrate)
-            // In a real flow, we'd call generateStoryImage for each page here.
-            // For this demo, we'll use a placeholder or skip if API fails.
-            setStatus("Illustrating your memories...");
+            // 2. Generate Images
+            setStatus("Illustrating your memories (this may take a moment)...");
 
-            const pagesWithImages = storyData.pages.map((page: any) => ({
-                ...page,
-                // Using a placeholder service for reliable visuals in demo if real gen fails
-                imageUrl: `https://placehold.co/600x400/ffe4e6/be123c?text=${encodeURIComponent(page.imagePrompt.slice(0, 20))}...`
+            // Generate images in parallel
+            const pagesWithImages = await Promise.all(storyData.pages.map(async (page: any) => {
+                let imageUrl = null;
+                try {
+                    // Add "Pixar style" to the prompt explicitly to ensure the style
+                    const imagePrompt = `${page.imagePrompt}, Pixar style 3D render, high quality, 4k, cute, expressive, romantic lighting`;
+                    imageUrl = await generateStoryImage(imagePrompt);
+                } catch (e) {
+                    console.error("Failed to generate image for page", e);
+                }
+
+                return {
+                    ...page,
+                    // Use generated image or fallback to placeholder
+                    imageUrl: imageUrl || `https://placehold.co/600x400/ffe4e6/be123c?text=${encodeURIComponent(page.imagePrompt.slice(0, 20))}...`
+                };
             }));
 
             // 3. Save Story
