@@ -125,5 +125,466 @@
       }
     ],
     "createdAt": "2026-01-15T19:27:17.551Z"
+  },
+  {
+    "id": "zunnoor---kiran-7541",
+    "title": "Our Love Story",
+    "coupleNames": "zunnoor & kiran",
+    "pages": [
+      {
+        "panels": [
+          {
+            "description": "Zunnoor is looking at a shop window, absorbed, when Kiran, not looking where he's going, accidentally bumps into her from behind, causing her to drop her shopping bag.",
+            "imagePrompt": "Marvel comic style, a bustling shopping mall interior with bright store lights. Zunnoor, a young woman with dark brown hair pulled back, dark brown eyes, fair skin, prominent brows, and full lips, wearing a cream-colored floral blouse featuring small blue and green blossoms, with a rounded Peter Pan collar and a tie-neck detail, is intently looking into a store window. Kiran, a young man with dark brown hair styled in a modern fade with volume on top, dark brown eyes, and a medium skin tone, with a neatly trimmed thin mustache and chin beard, wearing a light mustard yellow/khaki collared shirt, unbuttoned at the neck, is in mid-stride, having just accidentally collided with her from behind. A shopping bag tumbles from Zunnoor's hand, spilling its contents onto the polished floor. Dynamic angle, vibrant colors.",
+            "speechBubbles": [
+              {
+                "character": "Zunnoor",
+                "text": "Oh! Watch it!"
+              },
+              {
+                "character": "Kiran",
+                "text": "Whoa! My apologies, I wasn't looking!"
+              }
+            ],
+            "imageUrl": "https://placehold.co/600x400/ffe4e6/be123c?text=Comic+Panel"
+          },
+          {
+            "description": "Kiran is kneeling, helping Zunnoor pick up her scattered items. Their hands brush as they reach for the same item, and they make eye contact, a shy smile forming on Zunnoor's face and a charming grin on Kiran's.",
+            "imagePrompt": "Marvel comic style, a close-up shot focusing on Zunnoor and Kiran in a well-lit area of the mall. Kiran, a young man with dark brown hair styled in a modern fade, dark brown eyes, medium skin tone, neat thin mustache and chin beard, in a light mustard yellow/khaki collared shirt, is kneeling respectfully. Zunnoor, a young woman with dark brown hair pulled back, dark brown eyes, fair skin, prominent brows, and full lips, in a cream-colored floral blouse, is also bending down. Their hands gently brush as they simultaneously reach for a small, spilled item. They lock eyes, a shy, warm smile beginning to form on Zunnoor's lips, mirrored by a charming, apologetic grin on Kiran's face. Soft, warm lighting, hinting at an immediate connection.",
+            "caption": "Sometimes, destiny has a funny way of introducing you to the person who'll change your world.",
+            "speechBubbles": [
+              {
+                "character": "Zunnoor",
+                "text": "No worries... these things happen."
+              },
+              {
+                "character": "Kiran",
+                "text": "Let me get that... I'm Kiran, by the way."
+              },
+              {
+                "character": "Zunnoor",
+                "text": "Zunnoor."
+              }
+            ],
+            "imageUrl": "https://placehold.co/600x400/ffe4e6/be123c?text=Comic+Panel"
+          }
+        ]
+      },
+      {
+        "panels": [
+          {
+            "description": "Zunnoor and Kiran are enjoying coffee at a charming cafe, engaged in conversation. Suddenly, a massive explosion occurs outside the window, rocking the building and filling the air with smoke and debris. Their expressions shift from relaxed to alarmed, then determined.",
+            "imagePrompt": "Marvel comic style, a cozy cafe interior with a large window overlooking a city street. Zunnoor, a young woman with dark brown hair pulled back, dark brown eyes, fair skin, prominent brows, and full lips, wearing a cream-colored floral blouse, and Kiran, a young man with dark brown hair modern fade, dark brown eyes, medium skin tone, neat thin mustache and chin beard, in a light mustard yellow/khaki collared shirt, are seated at a small table, sipping coffee and laughing. Suddenly, a massive, fiery explosion erupts directly outside the large cafe window, shattering glass and sending debris flying. Smoke and orange light billow in. Their faces are a dramatic blend of shock turning into immediate, steely resolve. Dynamic, chaotic energy juxtaposed with their earlier calm. Vibrant, intense colors.",
+            "caption": "Our first date wasn't exactly 'dinner and a movie.' It was more like... 'dessert and a city under siege.'",
+            "speechBubbles": [
+              {
+                "character": "Zunnoor",
+                "text": "So, about that new 'Spindrift' exhibit..."
+              },
+              {
+                "character": "Kiran",
+                "text": "(Sound effect text: KABOOM!) That's our cue, isn't it?"
+              }
+            ],
+            "imageUrl": "https://placehold.co/600x400/ffe4e6/be123c?text=Comic+Panel"
+          },
+          {
+            "description": "Zunnoor and Kiran, now in their distinct superhero gear, stand side-by-side amidst rubble on the street, ready to confront the menacing villain Babu, who is visible in the background causing further destruction.",
+            "imagePrompt": "Marvel comic style, a dynamic street scene filled with recent rubble, smoke, and overturned vehicles. Zunnoor, now transformed into a superhero, wearing a sleek, dark purple and silver suit with subtle floral-inspired patterns, her dark brown hair still pulled back but with a more heroic flair, her dark brown eyes gleaming with fierce determination. Beside her, Kiran, also in his superhero persona, clad in a sturdy dark gold and brown armored suit, his dark brown hair modern fade slightly wind-swept, dark brown eyes narrowed in focused intensity, his neat thin mustache and chin beard visible. They stand confidently, fists clenched, shoulders almost touching, exuding readiness. In the background, the hulking, menacing figure of the villain Babu (portray him as a powerful, destructive force, perhaps with rocky or metallic skin), is seen levitating or smashing another part of the city. Intense, action-packed composition with dramatic lighting.",
+            "speechBubbles": [
+              {
+                "character": "Zunnoor",
+                "text": "Looks like Babu decided to crash our date."
+              },
+              {
+                "character": "Kiran",
+                "text": "And he's about to regret it."
+              }
+            ],
+            "imageUrl": "https://placehold.co/600x400/ffe4e6/be123c?text=Comic+Panel"
+          }
+        ]
+      },
+      {
+        "panels": [
+          {
+            "description": "Zunnoor and Kiran are engaging Babu in a fluid, coordinated attack. Zunnoor is creating a shimmering energy construct to bind Babu, while Kiran delivers a powerful, glowing physical blow.",
+            "imagePrompt": "Marvel comic style, an intense, mid-action battle sequence on a crumbling city street. Zunnoor, in her dark purple and silver superhero suit, is gracefully dodging a chaotic energy blast from Babu. With one arm extended, a shimmering, vibrant energy construct (or a whirlwind of sharp, thorny vines, hinting at floral manipulation powers) is actively forming around Babu, attempting to entrap him. Kiran, in his dark gold and brown armored suit, lunges forward with incredible force, a powerful, glowing fist (perhaps crackling with energy) aimed directly at Babu's midsection. Babu, a large and menacing figure, is caught off guard, his face contorted in surprise and frustration. Dynamic motion lines, bright energy effects, and a clear focus on their synergistic teamwork. Vibrant and high-impact.",
+            "caption": "We moved as one, a symphony of power and instinct. Our connection, forged in chaos, was our greatest weapon.",
+            "speechBubbles": [
+              {
+                "character": "Zunnoor",
+                "text": "Now, Kiran!"
+              },
+              {
+                "character": "Kiran",
+                "text": "He won't know what hit him!"
+              },
+              {
+                "character": "Babu",
+                "text": "GAAAH! You meddling kids!"
+              }
+            ],
+            "imageUrl": "https://placehold.co/600x400/ffe4e6/be123c?text=Comic+Panel"
+          },
+          {
+            "description": "Babu is finally defeated and subdued, lying unconscious amidst some rubble. Zunnoor and Kiran stand over him, a sense of triumphant relief on their faces, sharing a victorious, knowing glance.",
+            "imagePrompt": "Marvel comic style, a gritty but satisfyingly victorious scene on a damaged city street. The villain Babu is sprawled unconscious amidst rubble, twisted metal, and broken pavement. Zunnoor, in her dark purple and silver superhero suit, stands tall and composed, one hand on her hip, a slight smirk of victory playing on her full lips. Kiran, in his dark gold and brown armored suit, stands confidently beside her, perhaps wiping a bit of dust or sweat from his brow, a broad, confident smile spreading across his face. They share a triumphant, knowing look, eyes meeting in a silent acknowledgment of their successful team-up. A faint, residual glow of their powers might still linger in the air. Heroic, satisfying, and slightly romantic.",
+            "speechBubbles": [
+              {
+                "character": "Kiran",
+                "text": "I guess that counts as a successful first date."
+              },
+              {
+                "character": "Zunnoor",
+                "text": "Only if you're buying next time."
+              }
+            ],
+            "imageUrl": "https://placehold.co/600x400/ffe4e6/be123c?text=Comic+Panel"
+          }
+        ]
+      },
+      {
+        "panels": [
+          {
+            "description": "A dynamic montage panel showcasing Zunnoor and Kiran, in their superhero forms, saving the city from various threats – stopping a runaway train, preventing a building collapse, and battling another group of diverse villains.",
+            "imagePrompt": "Marvel comic style, a vibrant and dynamic montage panel composed of three distinct action scenes. In the top section, Zunnoor (dark purple and silver suit) and Kiran (dark gold and brown armored suit) are seen with outstretched hands, using their combined powers to bring a speeding runaway train to a halt on its tracks, sparks flying. In the middle section, they are heroically supporting a collapsing skyscraper, beams of energy or protective constructs preventing its fall, saving civilians below. In the bottom section, they are in a fierce, blurred battle against a swarm of diverse, lesser villains, showcasing their agility and combat prowess. The background seamlessly transitions between different parts of a bustling cityscape. Emphasize their teamwork and consistent presence as protectors of the city. Action-packed, varied scenarios, vibrant colors, and dynamic compositions within the montage.",
+            "caption": "From that day forward, our dates might have gotten a little more 'heroic.' But every moment, every saved life, every shared glance, built something truly special.",
+            "speechBubbles": [
+              {
+                "character": "SFX",
+                "text": "CRASH!"
+              },
+              {
+                "character": "SFX",
+                "text": "WHOOSH!"
+              },
+              {
+                "character": "SFX",
+                "text": "THWACK!"
+              }
+            ],
+            "imageUrl": "https://placehold.co/600x400/ffe4e6/be123c?text=Comic+Panel"
+          },
+          {
+            "description": "Zunnoor and Kiran, now in their civilian clothes, are sitting closely on a rooftop overlooking their city at sunset. They are holding hands, looking at each other with deep affection and contentment, reflecting on their journey as the city lights begin to twinkle below.",
+            "imagePrompt": "Marvel comic style, a serene and romantic sunset scene from a high rooftop overlooking a sprawling, vibrant city. Zunnoor, a young woman with dark brown hair pulled back, dark brown eyes, fair skin, prominent brows, and full lips, wearing a cream-colored floral blouse, and Kiran, a young man with dark brown hair modern fade, dark brown eyes, medium skin tone, neat thin mustache and chin beard, in a light mustard yellow/khaki collared shirt, are sitting close together, their hands clasped gently. They are looking into each other's eyes, soft, genuine, and affectionate smiles gracing their faces. The golden and orange hues of the setting sun cast a warm, emotional glow over them and the cityscape below, where the first city lights are beginning to twinkle. Reflective, intimate, and deeply romantic.",
+            "caption": "Saving the world was incredible. But doing it with you? That was the greatest adventure of all.",
+            "speechBubbles": [
+              {
+                "character": "Kiran",
+                "text": "Wouldn't trade any of it, Zunnoor."
+              },
+              {
+                "character": "Zunnoor",
+                "text": "Me neither, Kiran. Not a single moment."
+              }
+            ],
+            "imageUrl": "https://placehold.co/600x400/ffe4e6/be123c?text=Comic+Panel"
+          }
+        ]
+      }
+    ],
+    "createdAt": "2026-01-15T20:12:47.541Z"
+  },
+  {
+    "id": "zunnoor---kiran-2251",
+    "title": "Our Love Story",
+    "coupleNames": "zunnoor & kiran",
+    "pages": [
+      {
+        "panels": [
+          {
+            "description": "A bustling, brightly lit shopping mall. Zunnoor, preoccupied with her phone, accidentally bumps into Kiran, who is carrying a shopping bag. Some papers or a small item tumble from his grasp.",
+            "imagePrompt": "Super Hero Comic style. A crowded, vibrant mall setting. Zunnoor, a young woman with dark brown hair pulled back, deep brown eyes, and a fair skin tone, full lips, and a soft, approachable expression, wearing a cream-colored top adorned with a small, delicate blue and green floral pattern, featuring a V-neckline with a tie closure, looks up in surprise, almost dropping her phone. Kiran, a young man with dark brown hair styled in a modern cut with volume on top and short sides, dark brown eyes, and a medium to olive skin tone, distinctive thick eyebrows and a neatly trimmed dark mustache, with a faint hint of stubble on his chin, wearing a light mustard yellow or beige collared shirt, open at the neck, reaches out to steady her, his shopping bag slightly askew. A playful, slightly awkward moment.",
+            "speechBubbles": [
+              {
+                "character": "Kiran",
+                "text": "Oh, excuse me! I wasn't looking where I was going."
+              },
+              {
+                "character": "Zunnoor",
+                "text": "No, it was my fault, I was distracted. Are you alright?"
+              }
+            ],
+            "imageUrl": "https://placehold.co/600x400/ffe4e6/be123c?text=Comic+Panel"
+          },
+          {
+            "description": "A closer shot of Zunnoor and Kiran. They've both bent down to pick up the dropped item, their hands brushing. They share a small laugh and a lingering, immediate connection in their gaze.",
+            "imagePrompt": "Super Hero Comic style. Zunnoor (young woman, dark brown hair pulled back, deep brown eyes, fair skin tone, full lips, soft and approachable expression, wearing a cream-colored top with blue/green floral pattern, V-neck with tie closure) and Kiran (young man, dark brown hair modern cut, dark brown eyes, medium/olive skin tone, thick eyebrows, neatly trimmed dark mustache, faint stubble, wearing a light mustard yellow/beige collared shirt, open at neck) are smiling at each other, a subtle blush on their cheeks. Zunnoor is holding a small pamphlet, handing it back to Kiran. Kiran's hand gently brushes hers as he takes it. Background slightly blurred, focusing on their warm expressions. The vibrant mall lights reflect in their eyes.",
+            "caption": "Sometimes, destiny has a funny way of making introductions.",
+            "speechBubbles": [
+              {
+                "character": "Kiran",
+                "text": "I'm Kiran. And clearly, not very graceful today."
+              },
+              {
+                "character": "Zunnoor",
+                "text": "Zunnoor. And I'm usually much better at navigating crowds."
+              },
+              {
+                "character": "Kiran",
+                "text": "Well, Zunnoor, perhaps we could try navigating a coffee shop sometime? As an apology for my clumsiness."
+              },
+              {
+                "character": "Zunnoor",
+                "text": "I think I'd like that, Kiran."
+              }
+            ],
+            "imageUrl": "https://placehold.co/600x400/ffe4e6/be123c?text=Comic+Panel"
+          }
+        ]
+      },
+      {
+        "panels": [
+          {
+            "description": "Zunnoor and Kiran at a cozy, modern cafe within the same mall. They are deeply engrossed in conversation, sharing smiles and laughter over coffee.",
+            "imagePrompt": "Super Hero Comic style. Zunnoor (young woman, dark brown hair pulled back, deep brown eyes, fair skin tone, full lips, soft and approachable expression, wearing a cream-colored top with blue/green floral pattern, V-neck with tie closure) and Kiran (young man, dark brown hair modern cut, dark brown eyes, medium/olive skin tone, thick eyebrows, neatly trimmed dark mustache, faint stubble, wearing a light mustard yellow or beige collared shirt, open at neck) are seated at a small table in a bright, modern mall cafe. They are leaning in, talking animatedly, with coffee cups and a pastry between them. A warm, inviting atmosphere, reflecting their budding romance.",
+            "caption": "Our first date, fittingly, was right back where we started. The conversation flowed effortlessly.",
+            "speechBubbles": [
+              {
+                "character": "Zunnoor",
+                "text": "I can't believe we've been talking for hours!"
+              },
+              {
+                "character": "Kiran",
+                "text": "Time flies when you're with someone amazing."
+              }
+            ],
+            "imageUrl": "https://placehold.co/600x400/ffe4e6/be123c?text=Comic+Panel"
+          },
+          {
+            "description": "A dynamic panel showing Zunnoor and Kiran enjoying various moments together – laughing, holding hands, exploring. A subtle, energetic glow or lines around them hint at their growing connection and potential.",
+            "imagePrompt": "Super Hero Comic style. Zunnoor (young woman, dark brown hair pulled back, deep brown eyes, fair skin tone, full lips, soft and approachable expression, wearing a cream-colored top with blue/green floral pattern, V-neck with tie closure) and Kiran (young man, dark brown hair modern cut, dark brown eyes, medium/olive skin tone, thick eyebrows, neatly trimmed dark mustache, faint stubble, wearing a light mustard yellow or beige collared shirt, open at neck) in a vibrant, almost ethereal setting. They are holding hands, walking through a beautiful park during sunset, laughing joyfully. Background elements could be slightly stylized to show motion or bliss. A soft, golden aura subtly outlines them, hinting at their extraordinary potential and bond.",
+            "caption": "Every moment together felt like an adventure. Little did we know, bigger ones awaited.",
+            "speechBubbles": [
+              {
+                "character": "Zunnoor",
+                "text": "I feel like I've known you forever, Kiran."
+              },
+              {
+                "character": "Kiran",
+                "text": "Me too, Zunnoor. Like we were always meant to find each other."
+              }
+            ],
+            "imageUrl": "https://placehold.co/600x400/ffe4e6/be123c?text=Comic+Panel"
+          }
+        ]
+      },
+      {
+        "panels": [
+          {
+            "description": "The city skyline at night, suddenly disturbed by an ominous, swirling energy anomaly or a massive, shadowy threat descending from the sky. Civilians on the streets below look up in fear and chaos.",
+            "imagePrompt": "Super Hero Comic style. A dramatic wide shot of a futuristic cityscape at night. Ominous, dark clouds gather above, with jagged purple lightning or a massive, alien structure descending from the sky, casting an eerie glow. Civilians on the streets are looking up, screaming, or running in panic. High contrast, dynamic lighting, emphasizing the city's vulnerability.",
+            "caption": "But our world wasn't just about quiet moments and shared laughter. It was also a world that needed protecting.",
+            "speechBubbles": [],
+            "imageUrl": "https://placehold.co/600x400/ffe4e6/be123c?text=Comic+Panel"
+          },
+          {
+            "description": "A split panel showing Zunnoor and Kiran separately, sensing the danger and preparing. Zunnoor's eyes glow softly, and her hands begin to shimmer with energy. Kiran's shirt tears slightly, revealing a glowing symbol on his chest, as his muscles tense.",
+            "imagePrompt": "Super Hero Comic style. A dynamic split panel. Left side: Zunnoor (young woman, dark brown hair pulled back, deep brown eyes glowing with a soft, protective blue light, fair skin tone, full lips, soft but determined expression, wearing a cream-colored top with blue/green floral pattern, V-neck with tie closure) stands in a darkened room, her hands slightly raised, shimmering with faint, contained energy. Right side: Kiran (young man, dark brown hair modern cut, dark brown eyes, medium/olive skin tone, thick eyebrows, neatly trimmed dark mustache, faint stubble, wearing a light mustard yellow or beige collared shirt, open at neck, now torn slightly to reveal a glowing, stylized symbol on his chest) is bracing himself, his face resolute, a strong silhouette against a glowing cityscape visible through a window. The panels emphasize their individual determination.",
+            "speechBubbles": [
+              {
+                "character": "Zunnoor",
+                "text": "(Internal Monologue) The city... it needs us."
+              },
+              {
+                "character": "Kiran",
+                "text": "(Internal Monologue) Not on our watch."
+              }
+            ],
+            "imageUrl": "https://placehold.co/600x400/ffe4e6/be123c?text=Comic+Panel"
+          }
+        ]
+      },
+      {
+        "panels": [
+          {
+            "description": "Zunnoor and Kiran, now in their slightly suggested superhero attire (streamlined versions of their colors, energy effects), fighting side-by-side against the massive alien threat. Zunnoor unleashes powerful energy blasts, while Kiran engages in close combat or deflects debris with incredible strength.",
+            "imagePrompt": "Super Hero Comic style. Zunnoor and Kiran in full action. Zunnoor (same features but in a streamlined, agile outfit in cream/blue/green colors, emitting powerful blue-green energy blasts from her hands) is soaring or leaping, attacking a monstrous alien threat with concentrated energy. Kiran (same features but with a strong, agile pose in a mustard yellow/beige and darker accent outfit, perhaps with protective gauntlets or an energy shield) is deflecting debris or delivering a powerful, glowing blow to a part of the threat. Intense explosions and dynamic energy effects surround them, showcasing their combined power and coordination.",
+            "caption": "When the city cried for help, we answered. Together.",
+            "speechBubbles": [
+              {
+                "character": "Kiran",
+                "text": "Flank it, Zunnoor! I'll hold its attention!"
+              },
+              {
+                "character": "Zunnoor",
+                "text": "Got it, Kiran! Prepare for a concentrated blast!"
+              }
+            ],
+            "imageUrl": "https://placehold.co/600x400/ffe4e6/be123c?text=Comic+Panel"
+          },
+          {
+            "description": "The threat is defeated. Zunnoor and Kiran, slightly disheveled but triumphant, stand together on a high rooftop overlooking the now peaceful, recovering city. They share a tender, relieved look, their hands gently touching, as the beautiful dawn or a starlit sky emerges.",
+            "imagePrompt": "Super Hero Comic style. Zunnoor and Kiran, a little dusty and tired, but victorious, standing side-by-side on a high rooftop. The ominous clouds are gone, replaced by a beautiful, hopeful dawn or a star-filled night sky over the now peaceful city below. Zunnoor's hand is gently placed on Kiran's arm, and they are looking at each other with deep affection, pride, and relief. Subtle heroic silhouettes and perhaps a faint, lingering glow around them, symbolizing their shared victory and bond.",
+            "caption": "Saving the world was exhilarating. But doing it with you, Kiran... that's my favorite adventure.",
+            "speechBubbles": [
+              {
+                "character": "Kiran",
+                "text": "Another day, another save. You were incredible, Zunnoor."
+              },
+              {
+                "character": "Zunnoor",
+                "text": "Only because I had the best partner by my side, Kiran. Always."
+              },
+              {
+                "character": "Kiran",
+                "text": "Always."
+              }
+            ],
+            "imageUrl": "https://placehold.co/600x400/ffe4e6/be123c?text=Comic+Panel"
+          }
+        ]
+      }
+    ],
+    "createdAt": "2026-01-15T20:32:02.251Z"
+  },
+  {
+    "id": "zunnoor---kiran-4319",
+    "title": "Our Love Story",
+    "coupleNames": "zunnoor & kiran",
+    "pages": [
+      {
+        "panels": [
+          {
+            "description": "Zunnoor, lost in thought, bumps into Kiran while both are looking at items in a bustling mall. A stack of clothes falls between them. They look up, eyes meeting, a spark of recognition.",
+            "imagePrompt": "Modern Super Hero Comic style. A bustling shopping mall. Zunnoor, a young woman with dark brown hair pulled back neatly, warm dark brown eyes, and a fair to light olive skin tone, wearing a light-colored blouse with a subtle blue and green floral pattern and a tie-front detail at the neckline, looks surprised. Kiran, a young man with warm medium skin, dark brown hair styled in a modern, swept-up quiff, dark brown eyes, a thin, well-groomed dark mustache, and light stubble, wearing a simple, unbuttoned khaki collared shirt, also looks surprised. A pile of colorful clothes is scattered on the floor between them. Bright, vibrant lighting.",
+            "caption": "It all started, as many great stories do, with a perfectly ordinary day.",
+            "speechBubbles": [
+              {
+                "character": "Zunnoor",
+                "text": "Oh, I am so sorry!"
+              },
+              {
+                "character": "Kiran",
+                "text": "No, please, it was my fault. Let me help you with that."
+              }
+            ],
+            "imageUrl": "https://placehold.co/600x400/ffe4e6/be123c?text=Comic+Panel"
+          },
+          {
+            "description": "Zunnoor and Kiran are standing outside the mall, smiling warmly at each other, having just exchanged numbers. The setting sun casts a warm glow.",
+            "imagePrompt": "Modern Super Hero Comic style. Zunnoor, a young woman with dark brown hair pulled back neatly, warm dark brown eyes, and a fair to light olive skin tone, wearing a light-colored blouse with a subtle blue and green floral pattern and a tie-front detail at the neckline, is smiling softly. Kiran, a young man with warm medium skin, dark brown hair styled in a modern, swept-up quiff, dark brown eyes, a thin, well-groomed dark mustache, and light stubble, wearing a simple, unbuttoned khaki collared shirt, is looking at her with a gentle smile. They are bathed in the golden light of a setting sun outside a modern mall entrance. A sense of new beginnings and mutual interest.",
+            "caption": "A chance encounter, a shared laugh, and a number exchanged. Little did we know, destiny had much bigger plans than a dinner date.",
+            "speechBubbles": [
+              {
+                "character": "Kiran",
+                "text": "I'd really like to make it up to you... maybe over coffee sometime?"
+              },
+              {
+                "character": "Zunnoor",
+                "text": "I'd like that very much, Kiran."
+              }
+            ],
+            "imageUrl": "https://placehold.co/600x400/ffe4e6/be123c?text=Comic+Panel"
+          }
+        ]
+      },
+      {
+        "panels": [
+          {
+            "description": "Zunnoor and Kiran are enjoying a quiet coffee date at a cafe. They are deep in conversation, looking comfortable and happy. Suddenly, the background shows signs of disturbance outside the window.",
+            "imagePrompt": "Modern Super Hero Comic style. Zunnoor, a young woman with dark brown hair pulled back neatly, warm dark brown eyes, and a fair to light olive skin tone, wearing a light-colored blouse with a subtle blue and green floral pattern and a tie-front detail at the neckline, and Kiran, a young man with warm medium skin, dark brown hair styled in a modern, swept-up quiff, dark brown eyes, a thin, well-groomed dark mustache, and light stubble, wearing a simple, unbuttoned khaki collared shirt, are seated at a cozy cafe table, leaning in, deep in conversation. Coffee cups are on the table. Through the large window behind them, a blurry, chaotic scene is beginning to unfold: dust, a distant explosion, a hint of a grotesque figure. The cafe interior is warm and inviting.",
+            "caption": "Our 'first date' was going perfectly. Until, of course, the city decided it needed us.",
+            "speechBubbles": [
+              {
+                "character": "Zunnoor",
+                "text": "And I just knew, from that moment, you were different."
+              },
+              {
+                "character": "Kiran",
+                "text": "I could say the same about you, Zunnoor. It's like we..."
+              }
+            ],
+            "imageUrl": "https://placehold.co/600x400/ffe4e6/be123c?text=Comic+Panel"
+          },
+          {
+            "description": "The cafe window shatters as the villain Babu bursts through, a hulking figure made of jagged rock and debris, eyes glowing red. Zunnoor and Kiran instinctively shift, their civilian clothes starting to ripple with nascent power, eyes narrowed with determination.",
+            "imagePrompt": "Modern Super Hero Comic style. The cafe window explodes inwards, glass shards flying. The villain BABU, a hulking, grotesque figure composed of sharp, dark rock and debris, with glowing red eyes and a wide, menacing grin, is bursting through. Zunnoor, a young woman with dark brown hair pulled back neatly, warm dark brown eyes, and a fair to light olive skin tone, wearing a light-colored blouse with a subtle blue and green floral pattern and a tie-front detail at the neckline, and Kiran, a young man with warm medium skin, dark brown hair styled in a modern, swept-up quiff, dark brown eyes, a thin, well-groomed dark mustache, and light stubble, wearing a simple, unbuttoned khaki collared shirt, are both standing up, chairs toppled. A faint glow emanates from their bodies, hinting at their powers. Their expressions are serious and determined.",
+            "caption": "That's when 'different' became 'destined'.",
+            "speechBubbles": [
+              {
+                "character": "Babu",
+                "text": "HAHAHA! THE CITY IS MINE! AND SO ARE YOUR PRECIOUS COFFEE SHOPS!"
+              },
+              {
+                "character": "Zunnoor",
+                "text": "Kiran... you feel that too, right?"
+              },
+              {
+                "character": "Kiran",
+                "text": "More than feel it, Zunnoor. It's time to act."
+              }
+            ],
+            "imageUrl": "https://placehold.co/600x400/ffe4e6/be123c?text=Comic+Panel"
+          }
+        ]
+      },
+      {
+        "panels": [
+          {
+            "description": "Zunnoor and Kiran, now in their full superhero gear, are battling Babu. Zunnoor is agile, firing energy blasts, while Kiran uses his strength to deflect debris and land powerful blows. The city street is in chaos around them.",
+            "imagePrompt": "Modern Super Hero Comic style. Dynamic action shot. Zunnoor, in a sleek, dark blue and silver suit with energy conduits, a symbol of a stylized crescent moon on the chest, is airborne, firing vibrant blue energy blasts from her hands towards BABU. Kiran, in an armored, crimson and gold suit with gauntlets and a powerful stance, a symbol of a stylized sunburst on the chest, is on the ground, delivering a mighty punch to Babu's rocky chest, causing cracks. Babu is recoiling, grunting in pain, his form made of dark rock and debris. Buildings in the background show signs of destruction, dust and smoke fill the air. Colors are vibrant and energetic.",
+            "caption": "Our first date turned into our first battle. We fought as if we'd been doing it for years.",
+            "speechBubbles": [
+              {
+                "character": "Zunnoor",
+                "text": "Distract him, Kiran! I'll hit him with everything I've got!"
+              },
+              {
+                "character": "Kiran",
+                "text": "You got it! This guy needs to learn some manners!"
+              }
+            ],
+            "imageUrl": "https://placehold.co/600x400/ffe4e6/be123c?text=Comic+Panel"
+          },
+          {
+            "description": "Babu is defeated, crumbling into pieces of rock. Zunnoor and Kiran stand side-by-side amidst the clearing dust, looking at each other with relief, respect, and a deepening understanding.",
+            "imagePrompt": "Modern Super Hero Comic style. Zunnoor, in her sleek, dark blue and silver suit with a stylized crescent moon symbol, and Kiran, in his armored, crimson and gold suit with a stylized sunburst symbol, stand side-by-side. The villain BABU is reduced to a pile of inert rock and debris on the ground. The surrounding city street is damaged but calm. Zunnoor and Kiran are looking at each other, their helmets (or masks) revealing their warm dark brown eyes. Their expressions are a mix of exhaustion, triumph, and profound connection. Soft light filters through the clearing dust.",
+            "caption": "Babu was defeated, but something far more powerful was forged that day: a partnership. A bond.",
+            "speechBubbles": [
+              {
+                "character": "Zunnoor",
+                "text": "We... we did it, Kiran."
+              },
+              {
+                "character": "Kiran",
+                "text": "Together, Zunnoor. Always together."
+              }
+            ],
+            "imageUrl": "https://placehold.co/600x400/ffe4e6/be123c?text=Comic+Panel"
+          }
+        ]
+      },
+      {
+        "panels": [
+          {
+            "description": "A montage panel showcasing their shared heroic journey: saving a collapsing building, apprehending a group of thugs, standing triumphantly atop a cityscape. They are always together, protecting the city.",
+            "imagePrompt": "Modern Super Hero Comic style. A dynamic, multi-vignette montage panel. Zunnoor, in her sleek dark blue and silver suit with a crescent moon symbol, and Kiran, in his armored crimson and gold suit with a sunburst symbol, are depicted in various heroic acts: 1) Holding up a collapsing skyscraper together, 2) Leaping into action against a shadowy group of villains, 3) Standing back-to-back triumphantly on a rooftop overlooking a vibrant, safe city. Show their power and teamwork consistently. Bright and heroic color palette.",
+            "caption": "That wasn't the last time our city needed saving. But with each challenge, our resolve, and our love, only grew stronger.",
+            "speechBubbles": [],
+            "imageUrl": "https://placehold.co/600x400/ffe4e6/be123c?text=Comic+Panel"
+          },
+          {
+            "description": "Present day. Zunnoor and Kiran are in their home, perhaps on a sofa, in civilian clothes, holding hands. Zunnoor rests her head on Kiran's shoulder, both smiling contentedly as they look out a window at the city they protect.",
+            "imagePrompt": "Modern Super Hero Comic style. Zunnoor, a young woman with dark brown hair pulled back neatly, warm dark brown eyes, and a fair to light olive skin tone, wearing a light-colored blouse with a subtle blue and green floral pattern, is resting her head on Kiran's shoulder. Kiran, a young man with warm medium skin, dark brown hair styled in a modern, swept-up quiff, dark brown eyes, a thin, well-groomed dark mustache, and light stubble, wearing a simple, unbuttoned khaki collared shirt, has his arm around her. They are holding hands, looking out a window at a peaceful, modern city skyline at dusk. Their expressions are soft, loving, and content. The lighting is warm and intimate.",
+            "caption": "From a clumsy first meeting to saving the world, every moment with you has been an adventure. And I wouldn't trade it for anything.",
+            "speechBubbles": [
+              {
+                "character": "Zunnoor",
+                "text": "Who knew a bad guy named Babu could lead to all this?"
+              },
+              {
+                "character": "Kiran",
+                "text": "I did. The moment I saw you, I knew my world was about to get a lot more exciting."
+              }
+            ],
+            "imageUrl": "https://placehold.co/600x400/ffe4e6/be123c?text=Comic+Panel"
+          }
+        ]
+      }
+    ],
+    "createdAt": "2026-01-15T20:40:14.319Z"
   }
 ]

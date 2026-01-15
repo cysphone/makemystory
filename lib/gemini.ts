@@ -74,30 +74,54 @@ export async function generateFlirtyText(params: {
     }
 }
 
+export async function analyzeImage(base64Image: string) {
+    const genAI = getGenAI();
+    const model = genAI.getGenerativeModel({ model: "gemini-2.5-flash" });
+
+    try {
+        const result = await model.generateContent([
+            "Describe the person in this image in detail for a character description in a comic book. Focus on hair color/style, eye color, skin tone, distinctive features, and clothing style. Keep it concise (e.g., 'A young woman with wavy red hair, green eyes, fair skin, wearing a blue sundress').",
+            { inlineData: { data: base64Image.split(",")[1], mimeType: "image/jpeg" } }
+        ]);
+        const response = await result.response;
+        return response.text();
+    } catch (error: any) {
+        console.error("Error analyzing image:", error);
+        return "A generic character";
+    }
+}
+
 export async function generateOurStory(params: {
     howMet: string;
     firstDate: string;
     memorableMoments: string;
     names: string;
     vibe: string;
+    characterDescriptions?: string; // New param
 }) {
     const genAI = getGenAI();
     const model = genAI.getGenerativeModel({ model: "gemini-2.5-flash" });
 
     // Request JSON output for structured pages
-    const prompt = `Write a deeply romantic, passionate, and slightly spicy short story about a couple named ${params.names}.
-    Details:
+    const prompt = `Create a 4-page COMIC BOOK script about a couple named ${params.names}.
+    
+    Context:
     - How they met: ${params.howMet}
     - First date: ${params.firstDate}
     - Memorable moments: ${params.memorableMoments}
     - Vibe/Theme: ${params.vibe}
+    - Character Descriptions: ${params.characterDescriptions || "Create suitable appearances based on the story."}
 
     Format the output as a JSON object with a "pages" array. 
     Each page object should have:
-    - "text": A paragraph of the story (keep it concise, 2-3 sentences).
-    - "imagePrompt": A detailed prompt to generate a Pixar-style 3D animated movie illustration for this page. It should be colorful, expressive, and match the story text exactly. The characters should look consistent.
+    - "panels": An array of 1-2 panels per page.
+      Each panel object should have:
+      - "description": A visual description of the scene for the artist.
+      - "imagePrompt": A detailed prompt to generate a comic-book style image (e.g., "Marvel style", "Webtoon style", or "Pixar comic style" based on vibe: ${params.vibe}). Include the character descriptions to ensure consistency.
+      - "caption": A narration box text (optional).
+      - "speechBubbles": An array of objects { "character": "Name", "text": "Dialogue" }.
     
-    Create exactly 4 pages. The story should be wonderful, loving, and passionate.`;
+    The story should be emotional, engaging, and visually striking.`;
 
     try {
         const result = await model.generateContent({
@@ -114,7 +138,7 @@ export async function generateOurStory(params: {
 
 export async function generateStoryImage(prompt: string) {
     const genAI = getGenAI();
-    // Using Imagen 4.0 for high quality Pixar-style images
+    // Using Imagen 4.0 for high quality image generation
     const model = genAI.getGenerativeModel({ model: "imagen-4.0-generate-001" });
 
     try {
@@ -122,7 +146,6 @@ export async function generateStoryImage(prompt: string) {
         const response = await result.response;
 
         // Extract image from response
-        // The structure for Imagen responses usually contains inlineData in the candidates
         if (response.candidates && response.candidates[0].content.parts[0].inlineData) {
             const image = response.candidates[0].content.parts[0].inlineData;
             return `data:${image.mimeType};base64,${image.data}`;

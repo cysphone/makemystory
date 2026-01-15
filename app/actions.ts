@@ -5,10 +5,21 @@ import path from "path";
 
 const DATA_FILE = path.join(process.cwd(), "data", "stories.json");
 
-export type StoryPage = {
+export type SpeechBubble = {
+    character: string;
     text: string;
+};
+
+export type ComicPanel = {
+    description: string;
     imagePrompt: string;
-    imageUrl?: string; // Base64 or URL
+    imageUrl?: string;
+    caption?: string;
+    speechBubbles?: SpeechBubble[];
+};
+
+export type StoryPage = {
+    panels: ComicPanel[];
 };
 
 export type Story = {
