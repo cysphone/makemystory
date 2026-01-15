@@ -29,10 +29,18 @@ async function getStories(): Promise<Story[]> {
 }
 
 export async function saveStory(story: Story) {
-    const stories = await getStories();
-    stories.push(story);
-    await fs.writeFile(DATA_FILE, JSON.stringify(stories, null, 2));
-    return { success: true };
+    try {
+        const stories = await getStories();
+        stories.push(story);
+        await fs.writeFile(DATA_FILE, JSON.stringify(stories, null, 2));
+        return { success: true };
+    } catch (error: any) {
+        console.error("Failed to save story:", error);
+        // Return success: true anyway to allow the user to proceed to the story page,
+        // even if it wasn't saved to disk (it will be lost on refresh, but better than crashing).
+        // Ideally we would use a database here.
+        return { success: false, error: "Failed to save story. Storage is read-only in this demo." };
+    }
 }
 
 export async function getStory(id: string): Promise<Story | null> {

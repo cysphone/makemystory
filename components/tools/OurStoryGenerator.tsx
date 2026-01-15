@@ -7,6 +7,7 @@ import { Textarea } from "@/components/ui/Textarea";
 import { generateOurStory, generateStoryImage } from "@/lib/gemini";
 import { saveStory, Story } from "@/app/actions";
 import { Loader2, BookHeart, Sparkles } from "lucide-react";
+import { StoryBook } from "@/components/StoryBook";
 
 export function OurStoryGenerator({ onBack }: { onBack: () => void }) {
     const router = useRouter();
@@ -19,6 +20,7 @@ export function OurStoryGenerator({ onBack }: { onBack: () => void }) {
     });
     const [loading, setLoading] = useState(false);
     const [status, setStatus] = useState("");
+    const [generatedStory, setGeneratedStory] = useState<Story | null>(null);
 
     const handleGenerate = async () => {
         setLoading(true);
@@ -58,10 +60,16 @@ export function OurStoryGenerator({ onBack }: { onBack: () => void }) {
                 createdAt: new Date().toISOString(),
             };
 
-            await saveStory(newStory);
+            const saveResult = await saveStory(newStory);
 
-            // 4. Redirect
-            router.push(`/story/${storyId}`);
+            if (saveResult.success) {
+                // 4. Redirect
+                router.push(`/story/${storyId}`);
+            } else {
+                // 5. If save failed (e.g. Vercel read-only), show in-place
+                console.warn("Save failed, showing story in-place:", saveResult.error);
+                setGeneratedStory(newStory);
+            }
 
         } catch (error) {
             console.error(error);
@@ -70,6 +78,18 @@ export function OurStoryGenerator({ onBack }: { onBack: () => void }) {
             setLoading(false);
         }
     };
+
+    if (generatedStory) {
+        return (
+            <div className="w-full h-full">
+                <div className="p-4 bg-amber-50 border-b border-amber-200 text-amber-800 text-center text-sm flex justify-between items-center">
+                    <span>Note: Story could not be saved permanently (demo mode).</span>
+                    <button onClick={() => setGeneratedStory(null)} className="underline font-bold hover:text-amber-900">Create New</button>
+                </div>
+                <StoryBook story={generatedStory} />
+            </div>
+        );
+    }
 
     return (
         <div className="max-w-2xl mx-auto p-6">

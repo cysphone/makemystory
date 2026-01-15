@@ -3,13 +3,19 @@
 import { GoogleGenerativeAI } from "@google/generative-ai";
 
 // API Key is now loaded from environment variables for security
-const GEMINI_API_KEY = process.env.GEMINI_API_KEY || "";
+const GEMINI_API_KEY = process.env.GEMINI_API_KEY;
 
 if (!GEMINI_API_KEY) {
     console.error("Missing GEMINI_API_KEY in environment variables");
 }
 
-const genAI = new GoogleGenerativeAI(GEMINI_API_KEY);
+// Helper to get the model, ensuring API key is present
+const getGenAI = () => {
+    if (!GEMINI_API_KEY) {
+        throw new Error("GEMINI_API_KEY is not set. Please add it to your environment variables.");
+    }
+    return new GoogleGenerativeAI(GEMINI_API_KEY);
+};
 
 export async function generateLoveLetter(params: {
     partnerName: string;
@@ -17,6 +23,7 @@ export async function generateLoveLetter(params: {
     tone: string;
     memories: string;
 }) {
+    const genAI = getGenAI();
     const model = genAI.getGenerativeModel({ model: "gemini-2.5-flash" });
     const prompt = `Write a ${params.tone} love letter to ${params.partnerName} for ${params.occasion}. Include these memories: ${params.memories}. Keep it heartfelt and personal.`;
 
@@ -35,6 +42,7 @@ export async function generateFutureUs(params: {
     stage: string;
     dreams: string;
 }) {
+    const genAI = getGenAI();
     const model = genAI.getGenerativeModel({ model: "gemini-2.5-flash" });
     const prompt = `Write a creative and romantic "Future Us" scenario for a couple named ${params.names}. They are currently in the "${params.stage}" stage of their relationship. Their dreams include: ${params.dreams}. Describe a day in their life 5 years from now.`;
 
@@ -52,6 +60,7 @@ export async function generateFlirtyText(params: {
     context: string;
     tone: string;
 }) {
+    const genAI = getGenAI();
     const model = genAI.getGenerativeModel({ model: "gemini-2.5-flash" });
     const prompt = `Generate 5 distinct ${params.tone} flirty text messages for a situation where: ${params.context}. Format them as a numbered list.`;
 
@@ -72,6 +81,7 @@ export async function generateOurStory(params: {
     names: string;
     vibe: string;
 }) {
+    const genAI = getGenAI();
     const model = genAI.getGenerativeModel({ model: "gemini-2.5-flash" });
 
     // Request JSON output for structured pages
@@ -103,6 +113,7 @@ export async function generateOurStory(params: {
 }
 
 export async function generateStoryImage(prompt: string) {
+    const genAI = getGenAI();
     // Using Imagen 4.0 for high quality Pixar-style images
     const model = genAI.getGenerativeModel({ model: "imagen-4.0-generate-001" });
 
