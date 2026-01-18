@@ -139,7 +139,7 @@ export async function generateOurStory(params: {
 export async function generateStoryImage(prompt: string) {
     const genAI = getGenAI();
     // Using Imagen 4.0 for high quality image generation
-    const model = genAI.getGenerativeModel({ model: "imagen-4.0-generate-001" });
+    const model = genAI.getGenerativeModel({ model: "gemini-1.5-flash-latest" });
 
     try {
         const result = await model.generateContent(prompt);
